@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
         
         if (argc > 1) {
             BOOL changedSetting = NO;
-            const char *lastOption = argv[argc - 1];
+            const char *lastOption = argv[1];
             if (strcmp("-use-iTerm", lastOption) == 0) {
                 [userDefault setBool:YES forKey:@"cdto-use-iTerm"];
                 changedSetting = YES;
