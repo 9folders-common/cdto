@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610F79A12A9DCF9D00306B9A /* iTermLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 610F799D2A9DCF9D00306B9A /* iTermLauncher.m */; };
+		610F79A22A9DCF9D00306B9A /* TerminalLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 610F79A02A9DCF9D00306B9A /* TerminalLauncher.m */; };
 		699EB3C0234DBA0D00CC2315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699EB3BF234DBA0D00CC2315 /* Assets.xcassets */; };
 		699EB3C6234DBA0D00CC2315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 699EB3C5234DBA0D00CC2315 /* main.m */; };
 		699EB3D5234DC4D800CC2315 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 699EB3D4234DC4D800CC2315 /* AppIcon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		610F799C2A9DCF9D00306B9A /* iTermLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTermLauncher.h; sourceTree = "<group>"; };
+		610F799D2A9DCF9D00306B9A /* iTermLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTermLauncher.m; sourceTree = "<group>"; };
+		610F799E2A9DCF9D00306B9A /* LauncherProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LauncherProtocol.h; sourceTree = "<group>"; };
+		610F799F2A9DCF9D00306B9A /* TerminalLauncher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerminalLauncher.h; sourceTree = "<group>"; };
+		610F79A02A9DCF9D00306B9A /* TerminalLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerminalLauncher.m; sourceTree = "<group>"; };
 		699EB3B9234DBA0C00CC2315 /* cd to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cd to.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		699EB3BF234DBA0D00CC2315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		699EB3C4234DBA0D00CC2315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +67,11 @@
 				699EB3C4234DBA0D00CC2315 /* Info.plist */,
 				699EB3C5234DBA0D00CC2315 /* main.m */,
 				699EB3C7234DBA0D00CC2315 /* cd_to.entitlements */,
+				610F799C2A9DCF9D00306B9A /* iTermLauncher.h */,
+				610F799D2A9DCF9D00306B9A /* iTermLauncher.m */,
+				610F799E2A9DCF9D00306B9A /* LauncherProtocol.h */,
+				610F799F2A9DCF9D00306B9A /* TerminalLauncher.h */,
+				610F79A02A9DCF9D00306B9A /* TerminalLauncher.m */,
 			);
 			path = "cd to ...";
 			sourceTree = "<group>";
@@ -134,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				699EB3C6234DBA0D00CC2315 /* main.m in Sources */,
+				610F79A12A9DCF9D00306B9A /* iTermLauncher.m in Sources */,
+				610F79A22A9DCF9D00306B9A /* TerminalLauncher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
